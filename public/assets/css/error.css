@@ -1,0 +1,26 @@
+main {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f8d7da;
+    color: #721c24;
+    min-height: 70vh; /* Preenche toda a altura da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+}
+main h1 {
+    font-size: 50px;
+}
+main p {
+    font-size: 20px;
+}
+a.error {
+    color: #721c24;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.error:hover {
+    text-decoration: underline;
+}
